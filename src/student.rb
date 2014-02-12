@@ -16,6 +16,16 @@ class Student
     @age
   end
 
+  #Set name
+  def name=(value)
+    @name = value
+  end
+
+  #Set name
+  def age=(value)
+    @age = value
+  end
+
   # Return String
   def to_s
     "#@name, #@age"
@@ -27,3 +37,4 @@ person = Student.new('name', #number)
 
 #Show Name Age
 puts "name:#{person.name}, age:#{person.age}"
+
